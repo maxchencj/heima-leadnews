@@ -29,6 +29,7 @@ public class Application {
         String result = tesseract.doOCR(file);
 
         System.out.println("识别的结果为："+result.replaceAll("\\r|\\n","-"));
+        System.out.println(111);//测试git，额外
 
     }
 }
